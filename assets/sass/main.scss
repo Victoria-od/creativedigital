@@ -452,7 +452,7 @@ html {
 	}
 	.social-list{
 		background: #9f9acf;
-					padding:20px 0;
+		padding:20px 0;
 		ul{
 			list-style:none;
 			margin-left: -40px;
@@ -498,4 +498,33 @@ background: rgba(255,255,255,.9);
 }
 #myModal{
 	z-index: 99999999999;
+}
+
+footer{
+	background: #9f9acf;
+	padding: 81px;
+	.copywrite{
+		float:left;
+		font-size: 18px;
+		line-height: 0;
+		font-family: $general_font;
+		color: rgb(255, 255, 255);
+		text-align: left;
+		vertical-align: middle;
+	}
+	.social-list{
+		float:right;
+		ul{
+			list-style:none;
+			margin-left: -40px;
+			font-size: 0px;
+		}
+		li{
+			display: inline-block;
+			padding:0 13px 0;
+		}
+		li a img:hover{
+			opacity:0.8;
+		}
+	}
 }
