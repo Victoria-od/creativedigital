@@ -419,3 +419,26 @@ body {
 
 #myModal {
   z-index: 99999999999; }
+
+footer {
+  background: #9f9acf;
+  padding: 81px; }
+  footer .copywrite {
+    float: left;
+    font-size: 18px;
+    line-height: 0;
+    font-family: "PT Sans", sans-serif;
+    color: white;
+    text-align: left;
+    vertical-align: middle; }
+  footer .social-list {
+    float: right; }
+    footer .social-list ul {
+      list-style: none;
+      margin-left: -40px;
+      font-size: 0px; }
+    footer .social-list li {
+      display: inline-block;
+      padding: 0 13px 0; }
+    footer .social-list li a img:hover {
+      opacity: 0.8; }
